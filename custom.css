@@ -1,0 +1,2004 @@
+@font-face {
+    font-family: 'Sulphur Point', sans-serif;
+    src: url(<link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleapis.com/css2?family=Sulphur+Point&display=swap" rel="stylesheet">)
+}
+
+body {
+    background-color: #1E233B;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.pearson-image1 {
+    visibility: hidden;
+}
+
+.img a:hover {
+    color: #04AA6D;
+}
+
+.img a:active {
+    color: white;
+}
+
+.img a:visited {
+    color: white;
+}
+
+.linked img {
+    width: 50px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: -10px;
+}
+
+.scrollUp {
+    background-color: black;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 48px;
+    width: 48px;
+}
+
+.greeting {
+    font-family: 'Sulphur Point', sans-serif;
+    color: #0EA26C;
+    margin-left: 220px;
+    margin-top: 125px;
+    font-size: x-large;
+}
+
+#intro {
+    font-family: 'Sulphur Point', sans-serif;
+    color: white;
+    margin-left: 220px;
+    margin-top: 400px;
+    font-size: 100px;
+    overflow: visible;
+    max-width: 1200px;
+}
+
+.greg img {
+    width: 100%;
+    max-width: 600px;
+    margin-left: 1500px;
+    margin-top: -700px;
+}
+
+.button {
+    font-family: 'Sulphur Point', sans-serif;
+    background-color: #0EA26C;
+    border: none;
+    color: white;
+    padding: 16px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.hire {
+    margin-left: 1550px;
+    margin-top: -600px;
+}
+
+.hire .button:hover {
+    background-color: black;
+}
+
+.slideshow {
+    position: relative;
+    background: #000000f1;
+    width: 1000px;
+    margin-top: 800px;
+    margin-left: 400px;
+    padding: 25px;
+    border-radius: 10px 10px 0px 0;
+    height: 100px;
+}
+
+.slides {
+    display: none;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Sulphur Point', sans-serif;
+    color: #0EA26C;
+}
+
+.dots {
+    text-align: center;
+    padding: 25px;
+    background: rgb(0, 0, 0);
+    margin-top: 0px;
+    width: 1000px;
+    margin-left: 400px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+#about {
+    font-family: 'Sulphur Point', sans-serif;
+    color: white;
+    margin-left: 400px;
+    margin-top: 450px;
+    font-size: 70px;
+    overflow: visible;
+    max-width: 1500px;
+}
+
+#outline, h1 {
+    font-family: 'Sulphur Point', sans-serif;
+    -webkit-text-fill-color: #1E233B;
+    /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    font-size: 200px;
+    margin-top: -900px;
+    margin-left: 200px;
+}
+
+#skills, h2 {
+    font-family: 'Sulphur Point', sans-serif;
+    -webkit-text-fill-color: #1E233B;
+    /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    font-size: 200px;
+    margin-top: 750px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.infobox {
+    border-radius: 20px 0px 0px 20px;
+    background-color: black;
+    max-width: 900px;
+    width: 100%;
+    margin-left: 410px;
+    padding-bottom: 50px;
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+h3 {
+    margin-left: 50px;
+    padding-top: 75px;
+}
+
+.one {
+    margin-left: 50px;
+    padding-right: 200px;
+    padding-top: 25px;
+}
+
+h4 {
+    color: #0EA26C;
+    margin-left: 50px;
+    padding-top: 80px;
+}
+
+.two {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h5 {
+    color: #0EA26C;
+    margin-left: 50px;
+    padding-top: 40px;
+    font-size: xx-large;
+}
+
+li {
+    margin-top: 30px;
+    list-style: none;
+}
+
+.infobox2 {
+    border-radius: 0px 20px 20px 0px;
+    background-color: black;
+    max-width: 900px;
+    width: 100%;
+    margin-left: 1320px;
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 30px;
+    color: white;
+    padding-bottom: 50px;
+    margin-top: -1051px;
+}
+
+H6 {
+    font-size: 37px;
+    padding-top: 75px;
+    padding-left: 50px;
+}
+
+.summary {
+    padding-left: 50px;
+    margin-top: -35px;
+    padding-right: 250px;
+}
+
+.heading {
+    padding-left: 50px;
+    padding-top: 60px;
+    color: #0EA26C;
+    font-weight: bold;
+}
+
+.list {
+    padding-left: 50px;
+}
+
+.othertools {
+    padding-left: 50px;
+    padding-top: 38px;
+    font-weight: bold;
+    color: #0EA26C;
+}
+
+.projects {
+    -webkit-text-fill-color: #1E233B;
+    /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    font-size: 200px;
+    font-family: 'Sulphur Point', sans-serif;
+    margin-left: 420px;
+    margin-right: 600px;
+}
+
+.summary-pearson {
+    background-color: white;
+    width: 7.9%;
+    max-width: 200px;
+    padding: 100px;
+    border-radius: 0px 0px 20px 20px;
+    margin-left: 400px;
+    height: 175px;
+    display: block;
+}
+
+.text-pearson {
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    width: 12%;
+    margin-left: 450px;
+    margin-top: -350px;
+}
+
+.img {
+    background-color: black;
+    max-width: 200px;
+    width: 7.9%;
+    padding: 100px;
+    border-radius: 20px 20px 0px 0px;
+    margin-left: 400px;
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    max-height: 75px;
+    margin-top: 100px;
+}
+
+.pearson-image img {
+    width: 35%;
+    height: auto;
+    margin-left: 925px;
+    margin-top: -620px;
+}
+
+.img, a:link {
+    text-decoration: none;
+}
+
+.img, a:visited {
+    color: white;
+}
+
+.Auto-detail {
+    background-color: black;
+    max-width: 200px;
+    width: 7.9%;
+    padding: 100px;
+    border-radius: 20px 20px 0px 0px;
+    margin-left: 400px;
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    max-height: 75px;
+    margin-top: 200px;
+}
+
+.summary-detail {
+    background-color: white;
+    width: 7.9%;
+    max-width: 200px;
+    padding: 100px;
+    border-radius: 0px 0px 20px 20px;
+    margin-left: 400px;
+    height: 175px;
+    display: block;
+    margin-bottom: 800px;
+}
+
+.text-detail {
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    width: 12%;
+    margin-left: 450px;
+    margin-top: -1100px;
+}
+
+.timetoss {
+    background-color: black;
+    max-width: 200px;
+    width: 7.9%;
+    padding: 100px;
+    border-radius: 20px 20px 0px 0px;
+    margin-left: 400px;
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    max-height: 75px;
+    margin-top: 200px;
+}
+
+.summary-time {
+    background-color: white;
+    width: 7.9%;
+    max-width: 200px;
+    padding: 100px;
+    border-radius: 0px 0px 20px 20px;
+    margin-left: 400px;
+    height: 175px;
+    display: block;
+    margin-bottom: 0px;
+}
+
+.summary-time p {
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    width: 300px;
+    margin-left: -50px;
+    margin-top: -80px;
+}
+
+.time {
+    font-size: 20px;
+    margin-top: 100px;
+    width: 400px;
+    margin-left: -100px;
+    color: #0EA26C;
+}
+
+#btn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#btn:hover {
+    background-color: #555;
+}
+
+.linked img {
+    width: 50px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: -10px;
+}
+
+/* The side navigation menu */
+
+.sidenav {
+    font-family: 'Sulphur Point', sans-serif;
+    height: 100%;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    right: 0;
+    background-color: #111;
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #0EA26C;
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+
+.sidenav a:hover, .offcanvas a:focus {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+
+span {
+    float: right;
+    margin-right: 250px;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.navbar {
+    overflow: auto;
+    background-color: black;
+    position: relative;
+    width: 100%;
+    margin: 0 auto 0;
+    height: 125px;
+    font-family: 'Sulphur Point', sans-serif;
+    padding: -1px;
+    margin-top: 200px;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 40px 32px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #0EA26C;
+    color: white;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+
+@media screen and (max-width: 2210px) {
+    .pearson-image1 {
+        visibility: hidden;
+    }
+    .text-pearson {
+        font-family: 'Sulphur Point', sans-serif;
+        font-size: 17px;
+        font-weight: bold;
+        width: 12%;
+        margin-left: 450px;
+        margin-top: -350px;
+    }
+    .text-time {
+        font-size: 17px;
+        margin-top: -1150px;
+    }
+    @media screen and (max-width:2300px) {
+        .pearson-image1 {
+            visibility: hidden;
+        }
+        .greg img {
+            width: 100%;
+            max-width: 400px;
+            margin-left: 1400px;
+            margin-top: -700px;
+        }
+        .hire {
+            margin-left: 1550px;
+            margin-top: -430px;
+        }
+        #outline, h1 {
+            font-family: 'Sulphur Point', sans-serif;
+            -webkit-text-fill-color: #1E233B;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: white;
+            font-size: 200px;
+            margin-top: -900px;
+            margin-left: 100px;
+        }
+        #about {
+            font-family: 'Sulphur Point', sans-serif;
+            color: white;
+            margin-left: 200px;
+            margin-top: 450px;
+            font-size: 70px;
+            overflow: visible;
+            max-width: 1500px;
+        }
+        #skills, h2 {
+            font-family: 'Sulphur Point', sans-serif;
+            -webkit-text-fill-color: #1E233B;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: white;
+            font-size: 200px;
+            margin-top: 750px;
+            margin-left: 100px;
+            margin-right: 200px;
+        }
+        .infobox {
+            border-radius: 20px 0px 0px 20px;
+            background-color: black;
+            max-width: 900px;
+            width: 100%;
+            margin-left: 110px;
+            padding-bottom: 50px;
+            font-family: 'Sulphur Point', sans-serif;
+            font-size: 30px;
+            color: white;
+        }
+        .infobox2 {
+            border-radius: 0px 20px 20px 0px;
+            background-color: black;
+            max-width: 900px;
+            width: 100%;
+            margin-left: 1020px;
+            font-family: 'Sulphur Point', sans-serif;
+            font-size: 30px;
+            color: white;
+            padding-bottom: 50px;
+            margin-top: -1051px;
+        }
+    }
+    @media screen and (max-height: 450px) {
+        .sidenav {
+            padding-top: 15px;
+        }
+        .sidenav a {
+            font-size: 18px;
+        }
+    }
+    @media screen and (max-width:1366px) {
+        .pearson-image1 {
+            visibility: hidden;
+        }
+        .linked img {
+            width: 50px;
+            height: 50px;
+            margin-left: 100px;
+            margin-top: -10px;
+        }
+        .scrollUp {
+            background-color: black;
+            border: none;
+            border-radius: 50%;
+            color: white;
+            cursor: pointer;
+            font-size: 16px;
+            line-height: 48px;
+            width: 48px;
+        }
+        .greeting {
+            font-family: 'Sulphur Point', sans-serif;
+            color: #0EA26C;
+            margin-left: 220px;
+            margin-top: 125px;
+            font-size: x-large;
+        }
+        #intro {
+            font-family: 'Sulphur Point', sans-serif;
+            color: white;
+            margin-left: 220px;
+            margin-top: 400px;
+            font-size: 100px;
+            overflow: visible;
+            max-width: 1200px;
+        }
+        .greg img {
+            width: 600px;
+            height: 700px;
+            margin-left: 1500px;
+            margin-top: -700px;
+        }
+        .button {
+            font-family: 'Sulphur Point', sans-serif;
+            background-color: #0EA26C;
+            border: none;
+            color: white;
+            padding: 16px 35px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+        .hire {
+            margin-left: 1550px;
+            margin-top: -600px;
+        }
+        .hire .button:hover {
+            background-color: black;
+        }
+        .slideshow {
+            position: relative;
+            background: #000000f1;
+            width: 1000px;
+            margin-top: 800px;
+            margin-left: 250px;
+            padding: 25px;
+            border-radius: 10px 10px 0px 0;
+        }
+        .slides {
+            display: none;
+            padding: 20px;
+            text-align: center;
+            font-size: 30px;
+            font-family: 'Sulphur Point', sans-serif;
+            color: #0EA26C;
+        }
+        .dots {
+            text-align: center;
+            padding: 25px;
+            background: rgb(0, 0, 0);
+            margin-top: 0px;
+            width: 1000px;
+            margin-left: 250px;
+            border-radius: 0px 0px 10px 10px;
+        }
+        .dot {
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+        .about2 {
+            margin-right: -400px;
+        }
+        #about {
+            font-family: 'Sulphur Point', sans-serif;
+            color: white;
+            margin-left: 220px;
+            margin-top: 760px;
+            font-size: 70px;
+            overflow: visible;
+            max-width: 1500px;
+        }
+        #outline, h1 {
+            font-family: 'Sulphur Point', sans-serif;
+            -webkit-text-fill-color: #1E233B;
+            /* Will override color (regardless of order) */
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: white;
+            font-size: 200px;
+            margin-top: -1100px;
+            margin-left: 110px;
+        }
+        #skills, h2 {
+            font-family: 'Sulphur Point', sans-serif;
+            -webkit-text-fill-color: #1E233B;
+            /* Will override color (regardless of order) */
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: white;
+            font-size: 200px;
+            margin-top: 1200px;
+            margin-left: 200px;
+            margin-right: -500px;
+        }
+        .infobox {
+            border-radius: 20px 0px 0px 20px;
+            background-color: black;
+            width: 900px;
+            margin-left: 410px;
+            padding-bottom: 50px;
+            font-family: 'Sulphur Point', sans-serif;
+            font-size: 30px;
+            color: white;
+        }
+        h3 {
+            margin-left: 50px;
+            padding-top: 75px;
+        }
+        .one {
+            margin-left: 50px;
+            padding-right: 200px;
+            padding-top: 25px;
+        }
+        h4 {
+            color: #0EA26C;
+            margin-left: 50px;
+            padding-top: 80px;
+        }
+        .two {
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        h5 {
+            color: #0EA26C;
+            margin-left: 50px;
+            padding-top: 40px;
+            font-size: xx-large;
+        }
+        li {
+            margin-top: 30px;
+            list-style: none;
+        }
+        .infobox2 {
+            border-radius: 0px 20px 20px 0px;
+            background-color: black;
+            width: 900px;
+            margin-left: 1320px;
+            font-family: 'Sulphur Point', sans-serif;
+            font-size: 30px;
+            color: white;
+            padding-bottom: 50px;
+            margin-top: -1051px;
+        }
+        H6 {
+            font-size: 37px;
+            padding-top: 75px;
+            padding-left: 50px;
+        }
+        .summary {
+            padding-left: 50px;
+            margin-top: -35px;
+            padding-right: 250px;
+        }
+        .heading {
+            padding-left: 50px;
+            padding-top: 60px;
+            color: #0EA26C;
+            font-weight: bold;
+        }
+        .list {
+            padding-left: 50px;
+        }
+        .othertools {
+            padding-left: 50px;
+            padding-top: 38px;
+            font-weight: bold;
+            color: #0EA26C;
+        }
+        .projects {
+            -webkit-text-fill-color: #1E233B;
+            /* Will override color (regardless of order) */
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: white;
+            font-size: 200px;
+            font-family: 'Sulphur Point', sans-serif;
+            margin-left: 420px;
+            margin-right: -100px;
+        }
+        .img {
+            background-color: black;
+            width: 200px;
+            padding: 200px;
+            border-radius: 20px 20px 20px 20px;
+            margin-left: 200px;
+            font-family: 'Sulphur Point', sans-serif;
+            font-size: 50px;
+            font-weight: bold;
+            height: 200px;
+        }
+        .img, a:link {
+            text-decoration: none;
+        }
+        .img, a:visited {
+            color: white;
+        }
+        .auto {
+            background-color: black;
+            width: 200px;
+            padding: 200px;
+            border-radius: 20px 20px 20px 20px;
+            margin-left: 850px;
+            font-family: 'Sulphur Point', sans-serif;
+            font-size: 50px;
+            font-weight: bold;
+            margin-top: -600px;
+            margin-bottom: 100px;
+            height: 200px;
+        }
+        .timetosser {
+            background-color: black;
+            width: 200px;
+            padding: 200px;
+            border-radius: 20px 20px 20px 20px;
+            margin-left: 1500px;
+            font-family: 'Sulphur Point', sans-serif;
+            font-size: 50px;
+            font-weight: bold;
+            margin-top: -700px;
+            height: 200px;
+        }
+        .time {
+            font-size: 20px;
+            margin-top: 100px;
+            width: 400px;
+            margin-left: -100px;
+            color: #0EA26C;
+        }
+        #btn {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 30px;
+            z-index: 99;
+            font-size: 18px;
+            border: none;
+            outline: none;
+            background-color: red;
+            color: white;
+            cursor: pointer;
+            padding: 15px;
+            border-radius: 4px;
+        }
+        #btn:hover {
+            background-color: #555;
+        }
+        .linked img {
+            width: 50px;
+            height: 50px;
+            margin-left: 100px;
+            margin-top: -10px;
+        }
+        /* The side navigation menu */
+        .sidenav {
+            font-family: 'Sulphur Point', sans-serif;
+            height: 100%;
+            /* 100% Full-height */
+            width: 0;
+            /* 0 width - change this with JavaScript */
+            position: fixed;
+            /* Stay in place */
+            z-index: 1;
+            /* Stay on top */
+            top: 0;
+            right: 0;
+            background-color: #111;
+            /* Black*/
+            overflow-x: hidden;
+            /* Disable horizontal scroll */
+            padding-top: 60px;
+            /* Place content 60px from the top */
+            transition: 0.5s;
+            /* 0.5 second transition effect to slide in the sidenav */
+        }
+        /* The navigation menu links */
+        .sidenav a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #0EA26C;
+            display: block;
+            transition: 0.3s
+        }
+        /* When you mouse over the navigation links, change their color */
+        .sidenav a:hover, .offcanvas a:focus {
+            color: #f1f1f1;
+        }
+        /* Position and style the close button (top right corner) */
+        .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px !important;
+            margin-left: 50px;
+        }
+        span {
+            float: right;
+            margin-right: -950px;
+            font-size: 50px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        @media screen and (max-width:768px) {
+            #intro {
+                font-family: 'Sulphur Point', sans-serif;
+                color: white;
+                margin-left: 100px;
+                margin-top: 600px;
+                margin-bottom: 150px;
+                font-size: 60px;
+                width: 600px;
+            }
+            .greg {
+                width: 300px;
+                height: 300px;
+                margin-left: -1300px;
+                margin-top: -450px;
+            }
+            .greg img {
+                width: 350px;
+                height: 375px;
+                margin-top: -500px;
+            }
+            .button {
+                background-color: #0EA26C;
+                border: none;
+                color: white;
+                padding: 16px 35px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                cursor: pointer;
+                border-radius: 10px;
+            }
+            .hire {
+                margin-left: 300px;
+                margin-top: -525px;
+            }
+            .hire .button:hover {
+                background-color: black;
+            }
+            .slideshow {
+                position: relative;
+                background: #000000f1;
+                width: 600px;
+                margin-top: 550px;
+                margin-left: 55px;
+                padding: 25px;
+                border-radius: 10px 10px 0px 0;
+            }
+            .slides {
+                display: none;
+                padding: 20px;
+                text-align: center;
+                font-size: 30px;
+                font-family: 'Sulphur Point', sans-serif;
+                color: #0EA26C;
+            }
+            .dots {
+                text-align: center;
+                padding: 25px;
+                background: rgb(0, 0, 0);
+                margin-top: 0px;
+                width: 600px;
+                margin-left: 55px;
+                border-radius: 0px 0px 10px 10px;
+            }
+            .dot {
+                cursor: pointer;
+                height: 15px;
+                width: 15px;
+                margin: 0 2px;
+                background-color: #bbb;
+                border-radius: 50%;
+                display: inline-block;
+                transition: background-color 0.6s ease;
+            }
+            #about {
+                font-family: 'Sulphur Point', sans-serif;
+                color: white;
+                margin-left: 75px;
+                margin-top: 550px;
+                font-size: 45px;
+                overflow: visible;
+                max-width: 250px;
+            }
+            #outline, h1 {
+                font-family: 'Sulphur Point', sans-serif;
+                -webkit-text-fill-color: #1E233B;
+                /* Will override color (regardless of order) */
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: white;
+                font-size: 100px;
+                margin-top: -800px;
+                margin-left: 60px;
+            }
+            #skills, h2 {
+                font-family: 'Sulphur Point', sans-serif;
+                -webkit-text-fill-color: #1E233B;
+                /* Will override color (regardless of order) */
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: white;
+                font-size: 100px;
+                margin-top: 750px;
+                margin-left: 40px;
+                margin-right: 200px;
+                width: 650px;
+            }
+            .infobox {
+                border-radius: 20px 0px 0px 20px;
+                background-color: black;
+                width: 340px;
+                margin-left: 30px;
+                padding-bottom: 50px;
+                font-family: 'Sulphur Point', sans-serif;
+                font-size: 20px;
+                color: white;
+            }
+            h3 {
+                margin-left: 50px;
+                padding-top: 75px;
+            }
+            .one {
+                margin-left: 50px;
+                padding-right: 50px;
+                padding-top: 25px;
+            }
+            h4 {
+                color: #0EA26C;
+                margin-left: 50px;
+                padding-top: 80px;
+            }
+            .two {
+                margin-left: 50px;
+                margin-right: 50px;
+            }
+            h5 {
+                color: #0EA26C;
+                margin-left: 50px;
+                padding-top: 40px;
+                font-size: 21px;
+            }
+            li {
+                margin-top: 30px;
+                list-style: none;
+            }
+            .infobox2 {
+                border-radius: 0px 20px 20px 0px;
+                background-color: black;
+                width: 340px;
+                margin-left: 370px;
+                font-family: 'Sulphur Point', sans-serif;
+                font-size: 20px;
+                color: white;
+                padding-bottom: 83px;
+                margin-top: -884px;
+            }
+            H6 {
+                font-size: 23px;
+                padding-top: 75px;
+                padding-left: 50px;
+            }
+            .summary {
+                padding-left: 50px;
+                margin-top: -35px;
+                padding-right: 50px;
+            }
+            .heading {
+                padding-left: 50px;
+                padding-top: 60px;
+                color: #0EA26C;
+                font-weight: bold;
+            }
+            .list {
+                padding-left: 50px;
+            }
+            .othertools {
+                padding-left: 50px;
+                padding-top: 38px;
+                font-weight: bold;
+                color: #0EA26C;
+            }
+            .projects {
+                -webkit-text-fill-color: #1E233B;
+                /* Will override color (regardless of order) */
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: white;
+                font-size: 100px;
+                font-family: 'Sulphur Point', sans-serif;
+                margin-left: 150px;
+                margin-right: 4px;
+            }
+            .summary-pearson {
+                background-color: white;
+                width: 7.9%;
+                max-width: 200px;
+                padding: 100px;
+                border-radius: 0px 0px 20px 20px;
+                margin-left: 50px;
+                height: 175px;
+                display: block;
+            }
+            .text-pearson {
+                font-family: 'Sulphur Point', sans-serif;
+                font-size: 15px;
+                font-weight: bold;
+                width: 25%;
+                margin-left: 90px;
+                margin-top: -350px;
+            }
+            .img {
+                background-color: black;
+                max-width: 200px;
+                width: 7.9%;
+                padding: 100px;
+                border-radius: 20px 20px 0px 0px;
+                margin-left: 50px;
+                font-family: 'Sulphur Point', sans-serif;
+                font-size: 25px;
+                font-weight: bold;
+                max-height: 75px;
+                margin-top: 100px;
+            }
+            .pearson-image img {
+                visibility: hidden;
+            }
+            .pearson-image1 img {
+                margin-left: 330px;
+                margin-top: -580px;
+                width: 100%;
+                max-width: 370px;
+                height: 630px;
+            }
+            .img, a:link {
+                text-decoration: none;
+            }
+            .img, a:visited {
+                color: white;
+            }
+            .Auto-detail {
+                background-color: black;
+                max-width: 200px;
+                width: 7.9%;
+                padding: 100px;
+                border-radius: 20px 20px 0px 0px;
+                margin-left: 50px;
+                font-family: 'Sulphur Point', sans-serif;
+                font-size: 25px;
+                font-weight: bold;
+                max-height: 75px;
+                margin-top: 200px;
+            }
+            .summary-detail {
+                background-color: white;
+                width: 7.9%;
+                max-width: 200px;
+                padding: 100px;
+                border-radius: 0px 0px 20px 20px;
+                margin-left: 50px;
+                height: 175px;
+                display: block;
+                margin-bottom: 800px;
+            }
+            .text-detail {
+                font-family: 'Sulphur Point', sans-serif;
+                font-size: 20px;
+                font-weight: bold;
+                width: 20%;
+                margin-left: 110px;
+                margin-top: -1150px;
+            }
+            .timetoss {
+                background-color: black;
+                max-width: 200px;
+                width: 7.9%;
+                padding: 100px;
+                border-radius: 20px 20px 0px 0px;
+                margin-left: 50px;
+                font-family: 'Sulphur Point', sans-serif;
+                font-size: 25px;
+                font-weight: bold;
+                max-height: 75px;
+                margin-top: 200px;
+            }
+            .summary-time {
+                background-color: white;
+                width: 7.9%;
+                max-width: 200px;
+                padding: 100px;
+                border-radius: 0px 0px 20px 20px;
+                margin-left: 50px;
+                height: 200px;
+                display: block;
+                margin-bottom: -50px;
+            }
+            .summary-time p {
+                font-family: 'Sulphur Point', sans-serif;
+                font-size: 15px;
+                font-weight: bold;
+                width: 150px;
+                margin-top: -80px;
+                margin-left: -30px;
+            }
+            .text-time {
+                font-family: 'Sulphur Point', sans-serif;
+                font-size: 15px;
+                font-weight: bold;
+                width: 20%;
+                margin-left: 110px;
+                margin-top: -1150px;
+            }
+            .time {
+                font-size: 20px;
+                margin-top: 100px;
+                width: 400px;
+                margin-left: -100px;
+                color: #0EA26C;
+            }
+            .navbar {
+                overflow: auto;
+                background-color: black;
+                position: relative;
+                bottom: 0;
+                width: 760px;
+                margin-left: -4px;
+                height: 125px;
+                font-family: 'Sulphur Point', sans-serif;
+            }
+            span {
+                float: right;
+                margin-right: 50px;
+                font-size: 50px;
+                color: white;
+                font-weight: bold;
+                cursor: pointer;
+            }
+            .navbar {
+                overflow: auto;
+                background-color: black;
+                position: relative;
+                width: 100%;
+                margin: 0 auto 0;
+                height: 125px;
+                font-family: 'Sulphur Point', sans-serif;
+                padding: -1px;
+                margin-top: 200px;
+            }
+        }
+        @media screen and (max-width:414px) {
+            .summary-time p {
+                font-family: 'Sulphur Point', sans-serif;
+                font-size: 15px;
+                font-weight: bold;
+                width: 150px;
+                margin-top: -80px;
+                margin-left: -30px;
+            }
+            .greeting {
+                margin-left: 50px;
+                font-size: 20px;
+            }
+            #intro {
+                font-family: 'Sulphur Point', sans-serif;
+                color: white;
+                margin-left: 25px;
+                margin-top: 350px;
+                margin-bottom: 150px;
+                font-size: 40px;
+                width: 370px;
+            }
+            .greg {
+                width: 300px;
+                height: 300px;
+                margin-left: -1430px;
+                margin-top: -400px;
+            }
+            .greg img {
+                width: 250px;
+                height: 275px;
+                margin-top: -500px;
+                border-radius: 360px;
+            }
+            .button {
+                background-color: #0EA26C;
+                border: none;
+                color: white;
+                padding: 16px 35px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                cursor: pointer;
+                border-radius: 10px;
+            }
+            .hire {
+                margin-left: 100px;
+                margin-top: -525px;
+                visibility: hidden;
+            }
+            .hire .button:hover {
+                background-color: black;
+            }
+            .slideshow {
+                position: relative;
+                background: #000000f1;
+                width: 350px;
+                margin-top: 700px;
+                margin-left: 0px;
+                padding: 25px;
+                border-radius: 10px 10px 0px 0;
+            }
+            .slides {
+                display: none;
+                padding: 20px;
+                text-align: center;
+                font-size: 30px;
+                font-family: 'Sulphur Point', sans-serif;
+                color: #0EA26C;
+                height: 30px;
+            }
+            .dots {
+                text-align: center;
+                padding: 25px;
+                background: rgb(0, 0, 0);
+                margin-top: 0px;
+                width: 350px;
+                margin-left: 0px;
+                border-radius: 0px 0px 10px 10px;
+            }
+            .dot {
+                cursor: pointer;
+                height: 15px;
+                width: 15px;
+                margin: 0 2px;
+                background-color: #bbb;
+                border-radius: 50%;
+                display: inline-block;
+                transition: background-color 0.6s ease;
+            }
+            #about {
+                font-family: 'Sulphur Point', sans-serif;
+                color: white;
+                margin-left: 10px;
+                margin-top: 350px;
+                font-size: 25px;
+                overflow: visible;
+                max-width: 10px;
+            }
+            #outline, h1 {
+                font-family: 'Sulphur Point', sans-serif;
+                -webkit-text-fill-color: #1E233B;
+                /* Will override color (regardless of order) */
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: white;
+                font-size: 75px;
+                margin-top: -500px;
+                margin-left: 30px;
+            }
+            #skills, h2 {
+                font-family: 'Sulphur Point', sans-serif;
+                -webkit-text-fill-color: #1E233B;
+                /* Will override color (regardless of order) */
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: white;
+                font-size: 70px;
+                margin-top: 450px;
+                margin-left: 25px;
+                margin-right: 200px;
+                width: 350px;
+            }
+            .infobox {
+                border-radius: 20px 20px 0px 0px;
+                background-color: black;
+                width: 340px;
+                margin-left: 30px;
+                padding-bottom: 50px;
+                font-family: 'Sulphur Point', sans-serif;
+                font-size: 20px;
+                color: white;
+            }
+            h3 {
+                margin-left: 50px;
+                padding-top: 75px;
+            }
+            .one {
+                margin-left: 50px;
+                padding-right: 50px;
+                padding-top: 25px;
+            }
+            h4 {
+                color: #0EA26C;
+                margin-left: 50px;
+                padding-top: 80px;
+            }
+            .two {
+                margin-left: 50px;
+                margin-right: 50px;
+            }
+            h5 {
+                color: #0EA26C;
+                margin-left: 50px;
+                padding-top: 40px;
+                font-size: 21px;
+            }
+            li {
+                margin-top: 30px;
+                list-style: none;
+            }
+            .infobox2 {
+                border-radius: 0px 0px 20px 20px;
+                background-color: black;
+                width: 340px;
+                margin-left: 30px;
+                font-family: 'Sulphur Point', sans-serif;
+                font-size: 20px;
+                color: white;
+                padding-bottom: 83px;
+                margin-top: -55px;
+            }
+            H6 {
+                font-size: 25px;
+                padding-top: 75px;
+                padding-left: 50px;
+            }
+            .summary {
+                padding-left: 50px;
+                margin-top: -35px;
+                padding-right: 50px;
+            }
+            .heading {
+                padding-left: 50px;
+                padding-top: 60px;
+                color: #0EA26C;
+                font-weight: bold;
+            }
+            .list {
+                padding-left: 50px;
+            }
+            .othertools {
+                padding-left: 50px;
+                padding-top: 38px;
+                font-weight: bold;
+                color: #0EA26C;
+            }
+            .projects {
+                -webkit-text-fill-color: #1E233B;
+                /* Will override color (regardless of order) */
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: white;
+                font-size: 70px;
+                font-family: 'Sulphur Point', sans-serif;
+                margin-left: 30px;
+                margin-right: 4px;
+            }
+            .img {
+                background-color: black;
+                width: 100px;
+                padding: 100px;
+                border-radius: 20px 20px 20px 20px;
+                margin-left: 50px;
+                font-family: 'Sulphur Point', sans-serif;
+                font-size: 30px;
+                font-weight: bold;
+            }
+            .img, a:link {
+                text-decoration: none;
+            }
+            .img, a:visited {
+                color: white;
+            }
+            .auto {
+                background-color: black;
+                width: 100px;
+                padding: 100px;
+                border-radius: 20px 20px 20px 20px;
+                margin-left: 50px;
+                font-family: 'Sulphur Point', sans-serif;
+                font-size: 30px;
+                font-weight: bold;
+                margin-top: 25px;
+            }
+            .summary-pearson {
+                background-color: white;
+                width: 7.9%;
+                max-width: 200px;
+                padding: 100px;
+                border-radius: 0px 0px 20px 20px;
+                margin-left: 70px;
+                height: 175px;
+                display: block;
+            }
+            .text-pearson {
+                font-family: 'Sulphur Point', sans-serif;
+                font-size: 15px;
+                font-weight: bold;
+                width: 45%;
+                margin-left: 110px;
+                margin-top: -350px;
+            }
+            .img {
+                background-color: black;
+                max-width: 200px;
+                width: 7.9%;
+                padding: 100px;
+                border-radius: 20px 20px 0px 0px;
+                margin-left: 70px;
+                font-family: 'Sulphur Point', sans-serif;
+                font-size: 20px;
+                font-weight: bold;
+                max-height: 75px;
+                margin-top: 100px;
+            }
+            .pearson-image img {
+                visibility: hidden;
+            }
+            .pearson-image1 {
+                margin-left: 330px;
+                margin-top: -580px;
+                width: 100%;
+                max-width: 370px;
+                height: 630px;
+            }
+            .img, a:link {
+                text-decoration: none;
+            }
+            .img, a:visited {
+                color: white;
+            }
+            .Auto-detail {
+                background-color: black;
+                max-width: 200px;
+                width: 7.9%;
+                padding: 100px;
+                border-radius: 20px 20px 0px 0px;
+                margin-left: 70px;
+                font-family: 'Sulphur Point', sans-serif;
+                font-size: 20px;
+                font-weight: bold;
+                max-height: 75px;
+                margin-top: 200px;
+            }
+            .summary-detail {
+                background-color: white;
+                width: 7.9%;
+                max-width: 200px;
+                padding: 100px;
+                border-radius: 0px 0px 20px 20px;
+                margin-left: 70px;
+                height: 175px;
+                display: block;
+                margin-bottom: 800px;
+            }
+            .text-detail {
+                font-family: 'Sulphur Point', sans-serif;
+                font-size: 20px;
+                font-weight: bold;
+                width: 45%;
+                margin-left: 110px;
+                margin-top: -1150px;
+            }
+            .timetoss {
+                background-color: black;
+                max-width: 200px;
+                width: 7.9%;
+                padding: 100px;
+                border-radius: 20px 20px 0px 0px;
+                margin-left: 50px;
+                font-family: 'Sulphur Point', sans-serif;
+                font-size: 20px;
+                font-weight: bold;
+                max-height: 75px;
+                margin-top: 500px;
+            }
+            .summary-time {
+                background-color: white;
+                width: 7.9%;
+                max-width: 200px;
+                padding: 100px;
+                border-radius: 0px 0px 20px 20px;
+                margin-left: 50px;
+                height: 175px;
+                display: block;
+                margin-bottom: 0px;
+            }
+            .text-time {
+                font-family: 'Sulphur Point', sans-serif;
+                font-size: 15px;
+                font-weight: bold;
+                width: 45%;
+                margin-left: 85px;
+                margin-top: -1150px;
+            }
+            .time {
+                font-size: 20px;
+                margin-top: 100px;
+                width: 400px;
+                margin-left: -100px;
+                color: #0EA26C;
+            }
+            .navbar {
+                overflow: auto;
+                background-color: black;
+                position: relative;
+                bottom: 0;
+                width: 100%;
+                margin-left: -4px;
+                height: 125px;
+                font-family: 'Sulphur Point', sans-serif;
+            }
+            span {
+                visibility: visible;
+                margin-top: 10px;
+                margin-right: 20px;
+                font-size: 40px;
+                color: white;
+                font-weight: bold;
+                cursor: pointer;
+            }
+            @media screen and (max-width:375px) {
+                .greeting {
+                    font-family: 'Sulphur Point', sans-serif;
+                    color: #0EA26C;
+                    margin-left: 25px;
+                    margin-top: 125px;
+                    font-size: 20px;
+                    width: 300px;
+                }
+                #intro {
+                    font-family: 'Sulphur Point', sans-serif;
+                    color: white;
+                    margin-left: 30px;
+                    margin-top: 350px;
+                    font-size: 30px;
+                    width: 300px;
+                }
+                .greg {
+                    width: 550px;
+                    height: 550px;
+                    margin-top: -300px;
+                    position: relative;
+                }
+                .greg img {
+                    width: 275px;
+                    height: 275px;
+                    border-radius: 360px;
+                }
+                .button {
+                    visibility: hidden;
+                }
+                .hire {
+                    margin-left: 300px;
+                    margin-top: -525px;
+                }
+                .hire .button:hover {
+                    background-color: black;
+                }
+                .slideshow {
+                    position: relative;
+                    background: #000000f1;
+                    width: 300px;
+                    height: 50px;
+                    margin-top: 100px;
+                    margin-left: 5px;
+                    padding: 25px;
+                    border-radius: 10px 10px 0px 0;
+                }
+                .slides {
+                    display: none;
+                    padding: 20px;
+                    text-align: center;
+                    font-size: 20px;
+                    font-family: 'Sulphur Point', sans-serif;
+                    color: #0EA26C;
+                }
+                .dots {
+                    text-align: center;
+                    padding: 25px;
+                    background: rgb(0, 0, 0);
+                    margin-top: 0px;
+                    width: 300px;
+                    margin-left: 5px;
+                    border-radius: 0px 0px 10px 10px;
+                }
+                .dot {
+                    cursor: pointer;
+                    height: 15px;
+                    width: 15px;
+                    margin: 0 2px;
+                    background-color: #bbb;
+                    border-radius: 50%;
+                    display: inline-block;
+                    transition: background-color 0.6s ease;
+                }
+                #about {
+                    margin-left: 30px;
+                    margin-top: 200px;
+                    overflow: visible;
+                }
+                .about2 {
+                    font-family: 'Sulphur Point', sans-serif;
+                    color: white;
+                    font-size: 25px;
+                    width: 325px;
+                    margin-left: -10px;
+                }
+                #outline h1 {
+                    font-family: 'Sulphur Point', sans-serif;
+                    -webkit-text-fill-color: #1E233B;
+                    /* Will override color (regardless of order) */
+                    -webkit-text-stroke-width: 1px;
+                    -webkit-text-stroke-color: white;
+                    font-size: 50px;
+                    margin-top: 50px;
+                    margin-left: 10px;
+                    width: 300px;
+                }
+                #skills, h2 {
+                    font-family: 'Sulphur Point', sans-serif;
+                    -webkit-text-fill-color: #1E233B;
+                    /* Will override color (regardless of order) */
+                    -webkit-text-stroke-width: 1px;
+                    -webkit-text-stroke-color: white;
+                    font-size: 45px;
+                    margin-top: 450px;
+                    margin-left: px;
+                    margin-right: 200px;
+                    width: 300px;
+                }
+                .infobox {
+                    border-radius: 20px 20px 0px 0px;
+                    background-color: black;
+                    width: 340px;
+                    margin-left: 10px;
+                    padding-bottom: 50px;
+                    font-family: 'Sulphur Point', sans-serif;
+                    font-size: 20px;
+                    color: white;
+                }
+                h3 {
+                    margin-left: 50px;
+                    padding-top: 75px;
+                }
+                .one {
+                    margin-left: 50px;
+                    padding-right: 50px;
+                    padding-top: 25px;
+                }
+                h4 {
+                    color: #0EA26C;
+                    margin-left: 50px;
+                    padding-top: 80px;
+                }
+                .two {
+                    margin-left: 50px;
+                    margin-right: 50px;
+                }
+                h5 {
+                    color: #0EA26C;
+                    margin-left: 50px;
+                    padding-top: 40px;
+                    font-size: 21px;
+                }
+                li {
+                    margin-top: 30px;
+                    list-style: none;
+                }
+                .infobox2 {
+                    border-radius: 0px 0px 20px 20px;
+                    background-color: black;
+                    width: 340px;
+                    margin-left: 10px;
+                    font-family: 'Sulphur Point', sans-serif;
+                    font-size: 20px;
+                    color: white;
+                    padding-bottom: 83px;
+                    margin-top: -55px;
+                }
+                H6 {
+                    font-size: 25px;
+                    padding-top: 75px;
+                    padding-left: 50px;
+                }
+                .summary {
+                    padding-left: 50px;
+                    margin-top: -35px;
+                    padding-right: 50px;
+                }
+                .heading {
+                    padding-left: 50px;
+                    padding-top: 60px;
+                    color: #0EA26C;
+                    font-weight: bold;
+                }
+                .list {
+                    padding-left: 50px;
+                }
+                .othertools {
+                    padding-left: 50px;
+                    padding-top: 38px;
+                    font-weight: bold;
+                    color: #0EA26C;
+                }
+                .projects {
+                    -webkit-text-fill-color: #1E233B;
+                    /* Will override color (regardless of order) */
+                    -webkit-text-stroke-width: 1px;
+                    -webkit-text-stroke-color: white;
+                    font-size: 50px;
+                    font-family: 'Sulphur Point', sans-serif;
+                    margin-left: 30px;
+                    margin-right: 4px;
+                }
+                .summary-pearson {
+                    background-color: white;
+                    width: 7.9%;
+                    max-width: 200px;
+                    padding: 100px;
+                    border-radius: 0px 0px 20px 20px;
+                    margin-left: 70px;
+                    height: 175px;
+                    display: block;
+                }
+                .text-pearson {
+                    font-family: 'Sulphur Point', sans-serif;
+                    font-size: 15px;
+                    font-weight: bold;
+                    width: 45%;
+                    margin-left: 110px;
+                    margin-top: -350px;
+                }
+                .img {
+                    background-color: black;
+                    max-width: 200px;
+                    width: 7.9%;
+                    padding: 100px;
+                    border-radius: 20px 20px 0px 0px;
+                    margin-left: 70px;
+                    font-family: 'Sulphur Point', sans-serif;
+                    font-size: 20px;
+                    font-weight: bold;
+                    max-height: 75px;
+                    margin-top: 100px;
+                }
+                .pearson-image img {
+                    visibility: hidden;
+                }
+                .pearson-image1 img {
+                    visibility: hidden;
+                }
+                .img, a:link {
+                    text-decoration: none;
+                }
+                .img, a:visited {
+                    color: white;
+                }
+                .Auto-detail {
+                    background-color: black;
+                    max-width: 200px;
+                    width: 7.9%;
+                    padding: 100px;
+                    border-radius: 20px 20px 0px 0px;
+                    margin-left: 70px;
+                    font-family: 'Sulphur Point', sans-serif;
+                    font-size: 20px;
+                    font-weight: bold;
+                    max-height: 75px;
+                    margin-top: 200px;
+                }
+                .summary-detail {
+                    background-color: white;
+                    width: 7.9%;
+                    max-width: 200px;
+                    padding: 100px;
+                    border-radius: 0px 0px 20px 20px;
+                    margin-left: 70px;
+                    height: 175px;
+                    display: block;
+                    margin-bottom: 800px;
+                }
+                .text-detail {
+                    font-family: 'Sulphur Point', sans-serif;
+                    font-size: 20px;
+                    font-weight: bold;
+                    width: 45%;
+                    margin-left: 110px;
+                    margin-top: -1150px;
+                }
+                .timetoss {
+                    background-color: black;
+                    max-width: 200px;
+                    width: 7.9%;
+                    padding: 100px;
+                    border-radius: 20px 20px 0px 0px;
+                    margin-left: 70px;
+                    font-family: 'Sulphur Point', sans-serif;
+                    font-size: 20px;
+                    font-weight: bold;
+                    max-height: 75px;
+                    margin-top: 200px;
+                }
+                .summary-time {
+                    background-color: white;
+                    width: 7.9%;
+                    max-width: 200px;
+                    padding: 100px;
+                    border-radius: 0px 0px 20px 20px;
+                    margin-left: 70px;
+                    height: 175px;
+                    display: block;
+                    margin-bottom: 0px;
+                }
+                .summary-time p {
+                    font-family: 'Sulphur Point', sans-serif;
+                    font-size: 15px;
+                    font-weight: bold;
+                    margin-top: -80px;
+                    width: 150px;
+                    margin-left: -50px;
+                }
+                .text-time {
+                    font-family: 'Sulphur Point', sans-serif;
+                    font-size: 15px;
+                    font-weight: bold;
+                    width: 45%;
+                    margin-left: 85px;
+                    margin-bottom: -100px;
+                }
+                .time {
+                    font-size: 20px;
+                    margin-top: 100px;
+                    width: 400px;
+                    margin-left: -100px;
+                    color: #0EA26C;
+                }
+                .navbar {
+                    overflow: auto;
+                    background-color: black;
+                    position: relative;
+                    width: 100%;
+                    margin-left: -4px;
+                    height: 250px;
+                    font-family: 'Sulphur Point', sans-serif;
+                }
+                span {
+                    visibility: visible;
+                    margin-top: 10px;
+                    margin-right: 20px;
+                    font-size: 40px;
+                    color: white;
+                    font-weight: bold;
+                    cursor: pointer;
+                }
+                .linked img {
+                    visibility: hidden;
+                }
+            }
+        }
+    }
+}
