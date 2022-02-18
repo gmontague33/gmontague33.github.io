@@ -445,9 +445,9 @@ H6 {
 
 .text-weather p {
     font-family: 'Sulphur Point', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     font-weight: bold;
-    width: 250%;
+    width: 150%;
     margin-left: -50px;
     margin-top: -80px;
 }
