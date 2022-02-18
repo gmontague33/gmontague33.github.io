@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    color: black;
+    background-image: url('backgroundweather.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-color: black;
+    font-size: 4em;
+}
+
+.weather-box {
+    border-radius: 20px;
+    background-color: white;
+    opacity: .70;
+    padding: 20px;
+}
+
+.weather-box.location, .temperature {
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: auto;
+}
+
+.location img, .temperature {
+    margin-left: 250px;
+}
+
+.location img {
+    width: 30%;
+}
+
+.temperature {
+    flex-direction: column;
+}
+
+.degree-section {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.degree-section span {
+    margin: 10px;
+    font-size: 30px;
+
+}
+
+.degree-section h2 {
+    font: size 40px;
+}
+
+@media only screen and (max-width: 1178px) {
+    body {
+        background-image: url('backgroundweather2.jpg');
+        font-size: 2.5em;
+    }
+}
